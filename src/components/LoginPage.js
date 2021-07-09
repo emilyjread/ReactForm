@@ -41,12 +41,14 @@ const handleForm =(event)=>{
                 </div>
 
             </form>
-            <h1> Your Form Data: </h1>
-            <p>{firstName}</p>
-            <p>{lastName}</p>
-            <p>{email}</p>
-            <p>{password}</p>
-            <p>{confPassword}</p>
+            <div>
+                <h1> Your Form Data: </h1>
+                <p>{firstName}</p>
+                <p>{lastName}</p>
+                <p>{email}</p>
+                <p>{password}</p>
+                <p>{confPassword}</p>
+                </div>
         </div>
     )
 
